@@ -5,6 +5,8 @@
  */
 package J11;
 
+import java.util.Locale;
+
 /**
  *
  * @author WINDOWS 10
@@ -92,5 +94,11 @@ public class Praktek1 {
             System.out.println(arrTr[i]);
         
         System.out.println("=================================");
+        
+         double d = 1545454000;
+        System.out.println(String.format("Uang saya %,.4f", d));
+        
+        System.out.println(String.format(Locale.forLanguageTag("in-ID"),
+                "Uang saya Rp %,.2f", d));
 }
 }

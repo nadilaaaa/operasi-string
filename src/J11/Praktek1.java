@@ -26,5 +26,21 @@ public class Praktek1 {
         
         System.out.println("===================================");
         
+        System.out.println("isi x sama dengan y: " + x.equals(y));
+        
+        String z = "Operasi";
+        System.out.println("isi variabel z: " + z);
+        System.out.println("isi x sama dengan z (Case Sensitive): " + x.equals(z));
+        
+        String r = "Operasi";
+        System.out.println("isi variabel r: " + r);
+        System.out.println("isi x sama dengan r (Case Sensitive): "
+        + x.equals(r));
+        System.out.println("isi x sama dengan r (Not Case Sensitive): " 
+        + x.equalsIgnoreCase(r));
+        
+        System.out.println("===============================================");
+        
+        
 }
 }

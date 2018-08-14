@@ -5,6 +5,8 @@
  */
 package J11;
 
+import java.util.Scanner;
+
 /**
  *
  * @author WINDOWS 10
@@ -20,5 +22,16 @@ public class Praktek2 {
        String identitas = "Nadila Amalia Pribadi / XRPL3 / 29";
        
        tampilJudul(identitas); 
+       String kalimat = tampilInput();
+    }
+    
+     private static String tampilInput() {
+        Scanner baca = new Scanner(System.in);
+        
+        System.out.println("Masukkan Kalimat: ");
+        String kalimat = baca.nextLine();
+        System.out.println("Kalimat Asli : " + kalimat);
+        
+        return kalimat;
     }
 }
